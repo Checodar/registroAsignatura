@@ -15,7 +15,7 @@ export class RecuperarPage {
   public errorMessages = {
     correo: [
       { type: 'required', message: 'Introduzca nombre' },
-      { type: 'maxlength', message: 'El nomobre no puede tener mas de 15 caracteres'}
+      { type: 'maxlength', message: 'El nombre no puede tener mas de 15 caracteres'}
     ]
   };
   

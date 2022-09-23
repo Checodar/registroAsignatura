@@ -8,7 +8,9 @@
 
 <ion-content>
     <br>
+    <div class="logo">
     <img class="ion-padding ion-img-center" src="assets\Logo_DuocUC.jpg">
+    </div>
     <br>
     <ion-label class="ion-padding-top ion-text-center">
         <h3>Registro De Asistencia</h3>
@@ -31,13 +33,17 @@
             <small class="ion-padding">Mínimo 6 y máximo 10 caracteres</small>
         </div>
         <br>
-        <ion-item lines=none>
-            <a href="recuperar" class="enlace">Recuperar Contraseña</a>
-        </ion-item>
-        <br>
         <div style="text-align: center !important;">
             <ion-button class="boton" [disabled]="!loginForm.valid" type="small" (click)="ingresar()">Ingresar</ion-button>
         </div>
+        <br>
+        <br>
+        
+        <ion-item lines=none>
+            <a href="recuperar" class="enlace">Recuperar Contraseña</a>
+        </ion-item>
+        
+        
     </form>
 
 
